@@ -120,7 +120,7 @@ public void deleteReviewById(Long userId, Long animeId, Long reviewId) {
 
 ### Enhancement 3: New Query Endpoints
 
-The original API only allowed finding an anime by its ID or listing all anime in the database. I decided to make that approach easier, and added two new GET endpoints to achieve that: 
+The original API only allowed finding an anime by its ID or listing all anime in the database. I decided to make that approach easier, and added two new GET endpoints to achieve that:
 
 **Search by anime name** — Partial names, not case sensitive:
 
